@@ -1,35 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>wekop | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <div>
+        <img src="./images/bg-pattern-card.svg" alt="back-ground-fond-profile" class="img-top">
+      </div>
+      <div class="tarjeta-low">
+        <img src="./images/image-victor.jpg" alt="victor-profile" class="img-profile">
+        <div class="description">
+          <div class="data">
+            <span>Victor Crest</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>London</span>
+          </div>
+        </div>
+        <div class="stat">
+          <div>
+            <span>80K</span>
+            <span>Followers</span>
+          </div>
+          <div>
+            <span>803K</span>
+            <span>Likes</span>
+          </div>
+          <div>
+            <span>1.4K</span>
+            <span>Photosx </span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
 </html>
