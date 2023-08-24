@@ -59,6 +59,7 @@ body{
     color: var(--Very-dark-desaturated-blue);
 }
 .stat{
+    margin: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -79,7 +80,7 @@ body{
 }
 .tarjeta-low{
     background-color: white;
-    height: 140px;
+    height: 160px;
     
 }
 
