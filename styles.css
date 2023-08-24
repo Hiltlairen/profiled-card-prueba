@@ -36,7 +36,7 @@ body{
     height: auto;
     width: 100px;
     margin-top: -50px;
-    margin-left: 130px;
+    margin-left: 37%;
     
 }
 .description{
@@ -84,12 +84,13 @@ body{
     background-color: white;
     height: 170px;
     margin-top: -2%;
-    
+    width: 360px;
+    border-radius: 9px;
 }
 
 .img-top{
-    
-    width: 400px;
+    border-radius: 9px;
+    width: 360px;
 }
 
 
