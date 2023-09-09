@@ -13,3 +13,4 @@ shareDiv.appendChild(shares);
 
 const stat = document.querySelector(".stat");
 stat.appendChild(shareDiv);
+/*react libreria*/
